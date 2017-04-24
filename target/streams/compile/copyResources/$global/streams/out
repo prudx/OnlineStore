@@ -1,8 +1,8 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/evolutions,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/evolutions)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/application.conf,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/routes,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/routes)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/logback.xml,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/evolutions/default,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/evolutions/default)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/evolutions/default/2.sql,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/evolutions/default/2.sql)[0m
-[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/OnlineStore/conf/evolutions/default/1.sql,/home/wdd/webapps/OnlineStore/OnlineStore/target/scala-2.11/classes/evolutions/default/1.sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/evolutions,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/application.conf,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/routes,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/logback.xml,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/evolutions/default,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/evolutions/default/2.sql,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/evolutions/default/2.sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/conf/evolutions/default/1.sql,/home/wdd/webapps/OnlineStore/target/scala-2.11/classes/evolutions/default/1.sql)[0m

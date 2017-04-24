@@ -60,7 +60,7 @@ Seq[Any](format.raw/*4.41*/("""
                     <div class="col-sm-5">
                         <h1>About Us</h1>
                         <p>Inspired by a software engineer for a father whilst my brother and I grew up in the mid 70's. Spending time together on our fathers computer during our teenage years quickly revealed our passion for electronics and software. We decided to become partners after we both graduated from MIT with degrees in computer software engineering.</p> 
-                        <p>We opened our first store in our hometown, Brooklyn NY, in 1984. So many people came to our store in the years following, building long lasting friendships with ourselves and our small staff team. We were always putting the customer first making sure to provide the best possible prices for our trusting customers and that is what the MR.ROBOT brand is built upon</p>
+                        <p>We opened our first store in our hometown, Brooklyn NY, in 1984. So many people came to our store in the years following, building long lasting friendships with ourselves and our small staff team. We were always putting the customer first making sure to provide the best possible prices for our trusting customers and that is what the <a id="topleft">MR.ROBOT</a> brand is built upon</p>
                     </div>
                     <div class="clearfix visible-xs"></div>
                     <div class="col-sm-7 col-sm-push-1 col-xs-12">
@@ -95,10 +95,10 @@ Seq[Any](format.raw/*4.41*/("""
 object about extends about_Scope0.about_Scope1.about
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 24 17:20:10 IST 2017
-                  SOURCE: /home/wdd/webapps/OnlineStore/OnlineStore/app/views/about.scala.html
-                  HASH: d142eb7ec8d6573057a34cc26969bdff241ef732
-                  MATRIX: 880->92|1014->131|1041->133|1063->147|1102->149|1133->154|1355->348|1384->349|1416->354|1738->649|1766->650|3047->1904|3062->1910|3121->1948|3378->2175
+                  DATE: Mon Apr 24 20:59:49 IST 2017
+                  SOURCE: /home/wdd/webapps/OnlineStore/app/views/about.scala.html
+                  HASH: d82796f691b97916e591f9fd8505f4840544a36e
+                  MATRIX: 880->92|1014->131|1041->133|1063->147|1102->149|1133->154|1355->348|1384->349|1416->354|1738->649|1766->650|3067->1924|3082->1930|3141->1968|3398->2195
                   LINES: 32->4|37->4|38->5|38->5|38->5|39->6|46->13|46->13|47->14|50->17|50->17|67->34|67->34|67->34|76->43
                   -- GENERATED --
               */

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/OnlineStore/OnlineStore/conf/routes
-// @DATE:Mon Apr 24 17:14:43 IST 2017
+// @SOURCE:/home/wdd/webapps/OnlineStore/conf/routes
+// @DATE:Mon Apr 24 19:23:28 IST 2017
 
 package controllers.security;
 

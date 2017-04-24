@@ -43,22 +43,13 @@ Seq[Any](format.raw/*4.41*/("""
 				<source src=""""),_display_(/*10.19*/routes/*10.25*/.Assets.versioned("videos/OldComputerAds.mp4")),format.raw/*10.71*/("""" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
 			    </video>
 		    </div>
-    <div class="row">
-        
-			<div>
-				<img src="http://www.returndates.com/backgrounds/mrrobot.logo.png" id="centerlogo">
-			</div>
-		    
-		
-    </div>
-        
 
    
         <!-- /.row -->
 
     <!--Craig paste from your container to bottom of your code here-->
    
-""")))}),format.raw/*28.2*/("""
+""")))}),format.raw/*19.2*/("""
 """))
       }
     }
@@ -80,11 +71,11 @@ Seq[Any](format.raw/*4.41*/("""
 object index extends index_Scope0.index_Scope1.index
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 24 17:55:44 IST 2017
-                  SOURCE: /home/wdd/webapps/OnlineStore/OnlineStore/app/views/index.scala.html
-                  HASH: 47e64752d83b0c5dc54c86634382e36458c264d8
-                  MATRIX: 880->92|1014->131|1041->133|1063->147|1102->149|1133->154|1445->439|1460->445|1527->491|1959->893
-                  LINES: 32->4|37->4|38->5|38->5|38->5|39->6|43->10|43->10|43->10|61->28
+                  DATE: Mon Apr 24 20:19:21 IST 2017
+                  SOURCE: /home/wdd/webapps/OnlineStore/app/views/index.scala.html
+                  HASH: 1e5fe57c1490ee1a14b6e6acf9eef306138cdca0
+                  MATRIX: 880->92|1014->131|1041->133|1063->147|1102->149|1133->154|1445->439|1460->445|1527->491|1791->725
+                  LINES: 32->4|37->4|38->5|38->5|38->5|39->6|43->10|43->10|43->10|52->19
                   -- GENERATED --
               */
           

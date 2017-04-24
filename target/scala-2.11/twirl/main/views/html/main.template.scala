@@ -42,7 +42,7 @@ Seq[Any](format.raw/*1.57*/("""
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Product Catalogue - """),_display_(/*14.33*/title),format.raw/*14.38*/("""</title>
+    <title>"""),_display_(/*14.13*/title),format.raw/*14.18*/("""</title>
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
@@ -71,10 +71,11 @@ Seq[Any](format.raw/*1.57*/("""
 """),format.raw/*40.1*/("""}"""),format.raw/*40.2*/("""
 """),format.raw/*41.1*/("""</style>
     <!-- Site header and navigation -->
-    <header class="top" role="header">
+    
         <!-- Navigation -->
+        <div class="container">
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
+            
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -83,59 +84,49 @@ Seq[Any](format.raw/*1.57*/("""
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=""""),_display_(/*55.52*/routes/*55.58*/.ProductCtrl.index()),format.raw/*55.78*/("""" id="topleft">Computer Store</a>
+                    <a class="navbar-brand" href=""""),_display_(/*56.52*/routes/*56.58*/.ProductCtrl.index()),format.raw/*56.78*/("""" id="topleft">Mr. Robot</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href=""""),_display_(/*61.39*/routes/*61.45*/.ProductCtrl.about()),format.raw/*61.65*/("""">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
+                            <a href=""""),_display_(/*62.39*/routes/*62.45*/.ProductCtrl.about()),format.raw/*62.65*/("""">About</a>
                         </li>
                         <li>
                             <a href="#">Contact</a>
                         </li>
                         <li>
-                            <a href=""""),_display_(/*70.39*/routes/*70.45*/.ProductCtrl.listProducts(0)),format.raw/*70.73*/("""">Products</a>
+                            <a href=""""),_display_(/*68.39*/routes/*68.45*/.ProductCtrl.listProducts(0)),format.raw/*68.73*/("""">Products</a>
                         </li>
                         <li>
-                            <a href=""""),_display_(/*73.39*/controllers/*73.50*/.routes.ProductCtrl.signup()),format.raw/*73.78*/("""">Signup</a>
+                            <a href=""""),_display_(/*71.39*/controllers/*71.50*/.routes.ProductCtrl.signup()),format.raw/*71.78*/("""">Signup</a>
                         </li>
                                             <!-- Login/ logout Link - check if user logged in -->
                         <li>
-                            """),_display_(/*77.30*/if(user != null)/*77.46*/ {_display_(Seq[Any](format.raw/*77.48*/("""
-                                """),format.raw/*78.33*/("""<a href=""""),_display_(/*78.43*/controllers/*78.54*/.security.routes.LoginCtrl.logout()),format.raw/*78.89*/("""">Logout """),_display_(/*78.99*/user/*78.103*/.getName()),format.raw/*78.113*/("""</a>
-                            """)))}/*79.31*/else/*79.36*/{_display_(Seq[Any](format.raw/*79.37*/("""
-                                """),format.raw/*80.33*/("""<a href=""""),_display_(/*80.43*/controllers/*80.54*/.security.routes.LoginCtrl.login()),format.raw/*80.88*/("""">Login</a>
-                            """)))}),format.raw/*81.30*/("""
-                        """),format.raw/*82.25*/("""</li>
+                            """),_display_(/*75.30*/if(user != null)/*75.46*/ {_display_(Seq[Any](format.raw/*75.48*/("""
+                                """),format.raw/*76.33*/("""<a href=""""),_display_(/*76.43*/controllers/*76.54*/.security.routes.LoginCtrl.logout()),format.raw/*76.89*/("""">Logout """),_display_(/*76.99*/user/*76.103*/.getName()),format.raw/*76.113*/("""</a>
+                            """)))}/*77.31*/else/*77.36*/{_display_(Seq[Any](format.raw/*77.37*/("""
+                                """),format.raw/*78.33*/("""<a href=""""),_display_(/*78.43*/controllers/*78.54*/.security.routes.LoginCtrl.login()),format.raw/*78.88*/("""">Login</a>
+                            """)))}),format.raw/*79.30*/("""
+                        """),format.raw/*80.25*/("""</li>
                         <li>
-                            <a href=""""),_display_(/*84.39*/routes/*84.45*/.ShoppingCtrl.showBasket()),format.raw/*84.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                            <a href=""""),_display_(/*82.39*/routes/*82.45*/.ShoppingCtrl.showBasket()),format.raw/*82.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
-            </div>
             <!-- /.container -->
         </nav>
-    </header>
+        </div>
+
 
     <!-- Page Content -->
-    <div class="middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="lead">"""),_display_(/*99.38*/title),format.raw/*99.43*/("""</p>
-                <div>
-            </div>
 
             <!-- Start Content -->
-            """),_display_(/*104.14*/content),format.raw/*104.21*/("""
-            """),format.raw/*105.13*/("""<!-- End Content -->
+            """),_display_(/*95.14*/content),format.raw/*95.21*/("""
+            """),format.raw/*96.13*/("""<!-- End Content -->
 
-        </div>
+
         <!-- /.container -->
     </div>
 
@@ -146,7 +137,7 @@ Seq[Any](format.raw/*1.57*/("""
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Mr.Robot computing</p>
+                        <p>Mr. Robot® computers</p>
                     </div>
                 </div>
             </footer>
@@ -182,11 +173,11 @@ Seq[Any](format.raw/*1.57*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 24 17:55:19 IST 2017
-                  SOURCE: /home/wdd/webapps/OnlineStore/OnlineStore/app/views/main.scala.html
-                  HASH: 71b2df70d77564eaf92c4a054139820c9ef50a7e
-                  MATRIX: 766->1|916->56|944->58|1281->368|1307->373|1911->950|1926->956|1997->1006|2467->1448|2496->1449|2524->1450|2580->1479|2608->1480|2636->1481|3467->2285|3482->2291|3523->2311|3897->2658|3912->2664|3953->2684|4312->3016|4327->3022|4376->3050|4515->3162|4535->3173|4584->3201|4810->3400|4835->3416|4875->3418|4936->3451|4973->3461|4993->3472|5049->3507|5086->3517|5100->3521|5132->3531|5185->3566|5198->3571|5237->3572|5298->3605|5335->3615|5355->3626|5410->3660|5482->3701|5535->3726|5635->3799|5650->3805|5697->3831|6180->4287|6206->4292|6329->4387|6358->4394|6400->4407
-                  LINES: 27->1|32->1|34->3|45->14|45->14|56->25|56->25|56->25|69->38|69->38|70->39|71->40|71->40|72->41|86->55|86->55|86->55|92->61|92->61|92->61|101->70|101->70|101->70|104->73|104->73|104->73|108->77|108->77|108->77|109->78|109->78|109->78|109->78|109->78|109->78|109->78|110->79|110->79|110->79|111->80|111->80|111->80|111->80|112->81|113->82|115->84|115->84|115->84|130->99|130->99|135->104|135->104|136->105
+                  DATE: Mon Apr 24 20:23:34 IST 2017
+                  SOURCE: /home/wdd/webapps/OnlineStore/app/views/main.scala.html
+                  HASH: 2d28701c81e2dba52dc576bd68f2d8eb3ca75165
+                  MATRIX: 766->1|916->56|944->58|1261->348|1287->353|1891->930|1906->936|1977->986|2447->1428|2476->1429|2504->1430|2560->1459|2588->1460|2616->1461|3422->2240|3437->2246|3478->2266|3847->2608|3862->2614|3903->2634|4150->2854|4165->2860|4214->2888|4353->3000|4373->3011|4422->3039|4648->3238|4673->3254|4713->3256|4774->3289|4811->3299|4831->3310|4887->3345|4924->3355|4938->3359|4970->3369|5023->3404|5036->3409|5075->3410|5136->3443|5173->3453|5193->3464|5248->3498|5320->3539|5373->3564|5473->3637|5488->3643|5535->3669|5886->3993|5914->4000|5955->4013
+                  LINES: 27->1|32->1|34->3|45->14|45->14|56->25|56->25|56->25|69->38|69->38|70->39|71->40|71->40|72->41|87->56|87->56|87->56|93->62|93->62|93->62|99->68|99->68|99->68|102->71|102->71|102->71|106->75|106->75|106->75|107->76|107->76|107->76|107->76|107->76|107->76|107->76|108->77|108->77|108->77|109->78|109->78|109->78|109->78|110->79|111->80|113->82|113->82|113->82|126->95|126->95|127->96
                   -- GENERATED --
               */
           

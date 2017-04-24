@@ -60,7 +60,11 @@ Seq[Any](format.raw/*1.57*/("""
 </head>
 
 <body>
-
+<style>
+#topleft """),format.raw/*33.10*/("""{"""),format.raw/*33.11*/("""
+"""),format.raw/*34.1*/("""font-family: 'Robot', Arial;
+"""),format.raw/*35.1*/("""}"""),format.raw/*35.2*/("""
+"""),format.raw/*36.1*/("""</style>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -72,19 +76,19 @@ Seq[Any](format.raw/*1.57*/("""
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href=""""),_display_(/*44.48*/routes/*44.54*/.AdminProductCtrl.listProducts(0)),format.raw/*44.87*/("""">Products Catalogue</a>
+                <a class="navbar-brand" href=""""),_display_(/*48.48*/routes/*48.54*/.AdminProductCtrl.listProducts(0)),format.raw/*48.87*/("""" id="topleft">Mr. Robot</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
 					<!-- Login/ logout Link - check if user logged in -->
                     <li>
-						"""),_display_(/*51.8*/if(user != null)/*51.24*/ {_display_(Seq[Any](format.raw/*51.26*/("""
-						  """),format.raw/*52.9*/("""<a href=""""),_display_(/*52.19*/controllers/*52.30*/.security.routes.LoginCtrl.logout()),format.raw/*52.65*/("""">Logout """),_display_(/*52.75*/user/*52.79*/.getName),format.raw/*52.87*/("""</a>
-						""")))}/*53.9*/else/*53.14*/{_display_(Seq[Any](format.raw/*53.15*/("""
-                      	  """),format.raw/*54.26*/("""<a href=""""),_display_(/*54.36*/controllers/*54.47*/.security.routes.LoginCtrl.login()),format.raw/*54.81*/("""">Login</a>
-						""")))}),format.raw/*55.8*/("""
-                    """),format.raw/*56.21*/("""</li>
+						"""),_display_(/*55.8*/if(user != null)/*55.24*/ {_display_(Seq[Any](format.raw/*55.26*/("""
+						  """),format.raw/*56.9*/("""<a href=""""),_display_(/*56.19*/controllers/*56.30*/.security.routes.LoginCtrl.logout()),format.raw/*56.65*/("""">Logout """),_display_(/*56.75*/user/*56.79*/.getName),format.raw/*56.87*/("""</a>
+						""")))}/*57.9*/else/*57.14*/{_display_(Seq[Any](format.raw/*57.15*/("""
+                      	  """),format.raw/*58.26*/("""<a href=""""),_display_(/*58.36*/controllers/*58.47*/.security.routes.LoginCtrl.login()),format.raw/*58.81*/("""">Login</a>
+						""")))}),format.raw/*59.8*/("""
+                    """),format.raw/*60.21*/("""</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -102,8 +106,8 @@ Seq[Any](format.raw/*1.57*/("""
 			</div>
 
 			<!-- Start Content -->
-			"""),_display_(/*74.5*/content),format.raw/*74.12*/("""
-			"""),format.raw/*75.4*/("""<!-- End Content -->
+			"""),_display_(/*78.5*/content),format.raw/*78.12*/("""
+			"""),format.raw/*79.4*/("""<!-- End Content -->
 
     </div>
     <!-- /.container -->
@@ -125,10 +129,10 @@ Seq[Any](format.raw/*1.57*/("""
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src=""""),_display_(/*97.19*/routes/*97.25*/.Assets.versioned("javascripts/jquery.js")),format.raw/*97.67*/(""""></script>
+    <script src=""""),_display_(/*101.19*/routes/*101.25*/.Assets.versioned("javascripts/jquery.js")),format.raw/*101.67*/(""""></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src=""""),_display_(/*100.19*/routes/*100.25*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*100.74*/(""""></script>
+    <script src=""""),_display_(/*104.19*/routes/*104.25*/.Assets.versioned("javascripts/bootstrap.min.js")),format.raw/*104.74*/(""""></script>
 
 </body>
 
@@ -153,11 +157,11 @@ Seq[Any](format.raw/*1.57*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 24 16:30:27 IST 2017
-                  SOURCE: /home/wdd/webapps/OnlineStore/OnlineStore/app/views/productAdmin/main.scala.html
-                  HASH: 901b5e1dad4e49091a3daa0d3573bd65c30512a0
-                  MATRIX: 779->1|929->56|957->58|1294->368|1320->373|1406->432|1421->438|1492->488|1581->550|1596->556|1667->606|2787->1699|2802->1705|2856->1738|3228->2084|3253->2100|3293->2102|3329->2111|3366->2121|3386->2132|3442->2167|3479->2177|3492->2181|3521->2189|3551->2202|3564->2207|3603->2208|3657->2234|3694->2244|3714->2255|3769->2289|3818->2308|3867->2329|4235->2671|4263->2678|4294->2682|4723->3084|4738->3090|4801->3132|4899->3202|4915->3208|4986->3257
-                  LINES: 27->1|32->1|34->3|45->14|45->14|48->17|48->17|48->17|51->20|51->20|51->20|75->44|75->44|75->44|82->51|82->51|82->51|83->52|83->52|83->52|83->52|83->52|83->52|83->52|84->53|84->53|84->53|85->54|85->54|85->54|85->54|86->55|87->56|105->74|105->74|106->75|128->97|128->97|128->97|131->100|131->100|131->100
+                  DATE: Mon Apr 24 20:39:46 IST 2017
+                  SOURCE: /home/wdd/webapps/OnlineStore/app/views/productAdmin/main.scala.html
+                  HASH: 3c11429a37fed3dd15d269ba5ab3bd3017ce09bc
+                  MATRIX: 779->1|929->56|957->58|1294->368|1320->373|1406->432|1421->438|1492->488|1581->550|1596->556|1667->606|2136->1047|2165->1048|2193->1049|2249->1078|2277->1079|2305->1080|3009->1757|3024->1763|3078->1796|3454->2146|3479->2162|3519->2164|3555->2173|3592->2183|3612->2194|3668->2229|3705->2239|3718->2243|3747->2251|3777->2264|3790->2269|3829->2270|3883->2296|3920->2306|3940->2317|3995->2351|4044->2370|4093->2391|4461->2733|4489->2740|4520->2744|4950->3146|4966->3152|5030->3194|5128->3264|5144->3270|5215->3319
+                  LINES: 27->1|32->1|34->3|45->14|45->14|48->17|48->17|48->17|51->20|51->20|51->20|64->33|64->33|65->34|66->35|66->35|67->36|79->48|79->48|79->48|86->55|86->55|86->55|87->56|87->56|87->56|87->56|87->56|87->56|87->56|88->57|88->57|88->57|89->58|89->58|89->58|89->58|90->59|91->60|109->78|109->78|110->79|132->101|132->101|132->101|135->104|135->104|135->104
                   -- GENERATED --
               */
           

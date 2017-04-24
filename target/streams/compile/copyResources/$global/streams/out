@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/evolutions,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/application.conf,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/routes,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/logback.xml,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/evolutions/default,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/evolutions/default/2.sql,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/evolutions/default/2.sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/evolutions/default/1.sql,/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/scala-2.11/classes/evolutions/default/1.sql)[0m

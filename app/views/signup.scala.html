@@ -32,6 +32,12 @@
 
 </head>
     <body>
+
+<style>
+#topleft {
+font-family: 'Robot', Arial;
+}
+</style>
     <!-- Site header and navigation -->
     <header class="top" role="header">
         <!-- Navigation -->
@@ -45,7 +51,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand">Computer Store</a>
+                    <a href="@routes.ProductCtrl.index()" class="navbar-brand" id="topleft">Computer Store</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

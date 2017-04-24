@@ -65,6 +65,11 @@ Seq[Any](format.raw/*1.57*/("""
 </head>
 
 <body>
+<style>
+#topleft """),format.raw/*38.10*/("""{"""),format.raw/*38.11*/("""
+"""),format.raw/*39.1*/("""font-family: 'Robot', Arial;
+"""),format.raw/*40.1*/("""}"""),format.raw/*40.2*/("""
+"""),format.raw/*41.1*/("""</style>
     <!-- Site header and navigation -->
     <header class="top" role="header">
         <!-- Navigation -->
@@ -78,13 +83,13 @@ Seq[Any](format.raw/*1.57*/("""
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=""""),_display_(/*50.52*/routes/*50.58*/.ProductCtrl.listProducts(0)),format.raw/*50.86*/("""">Computer Store</a>
+                    <a class="navbar-brand" href=""""),_display_(/*55.52*/routes/*55.58*/.ProductCtrl.index()),format.raw/*55.78*/("""" id="topleft">Computer Store</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">About</a>
+                            <a href=""""),_display_(/*61.39*/routes/*61.45*/.ProductCtrl.about()),format.raw/*61.65*/("""">About</a>
                         </li>
                         <li>
                             <a href="#">Services</a>
@@ -93,18 +98,21 @@ Seq[Any](format.raw/*1.57*/("""
                             <a href="#">Contact</a>
                         </li>
                         <li>
-                            <a href=""""),_display_(/*65.39*/controllers/*65.50*/.routes.ProductCtrl.signup()),format.raw/*65.78*/("""">Signup</a>
+                            <a href=""""),_display_(/*70.39*/routes/*70.45*/.ProductCtrl.listProducts(0)),format.raw/*70.73*/("""">Products</a>
+                        </li>
+                        <li>
+                            <a href=""""),_display_(/*73.39*/controllers/*73.50*/.routes.ProductCtrl.signup()),format.raw/*73.78*/("""">Signup</a>
                         </li>
                                             <!-- Login/ logout Link - check if user logged in -->
                         <li>
-                            """),_display_(/*69.30*/if(user != null)/*69.46*/ {_display_(Seq[Any](format.raw/*69.48*/("""
-                                """),format.raw/*70.33*/("""<a href=""""),_display_(/*70.43*/controllers/*70.54*/.security.routes.LoginCtrl.logout()),format.raw/*70.89*/("""">Logout """),_display_(/*70.99*/user/*70.103*/.getName()),format.raw/*70.113*/("""</a>
-                            """)))}/*71.31*/else/*71.36*/{_display_(Seq[Any](format.raw/*71.37*/("""
-                                """),format.raw/*72.33*/("""<a href=""""),_display_(/*72.43*/controllers/*72.54*/.security.routes.LoginCtrl.login()),format.raw/*72.88*/("""">Login</a>
-                            """)))}),format.raw/*73.30*/("""
-                        """),format.raw/*74.25*/("""</li>
+                            """),_display_(/*77.30*/if(user != null)/*77.46*/ {_display_(Seq[Any](format.raw/*77.48*/("""
+                                """),format.raw/*78.33*/("""<a href=""""),_display_(/*78.43*/controllers/*78.54*/.security.routes.LoginCtrl.logout()),format.raw/*78.89*/("""">Logout """),_display_(/*78.99*/user/*78.103*/.getName()),format.raw/*78.113*/("""</a>
+                            """)))}/*79.31*/else/*79.36*/{_display_(Seq[Any](format.raw/*79.37*/("""
+                                """),format.raw/*80.33*/("""<a href=""""),_display_(/*80.43*/controllers/*80.54*/.security.routes.LoginCtrl.login()),format.raw/*80.88*/("""">Login</a>
+                            """)))}),format.raw/*81.30*/("""
+                        """),format.raw/*82.25*/("""</li>
                         <li>
-                            <a href=""""),_display_(/*76.39*/routes/*76.45*/.ShoppingCtrl.showBasket()),format.raw/*76.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                            <a href=""""),_display_(/*84.39*/routes/*84.45*/.ShoppingCtrl.showBasket()),format.raw/*84.71*/(""""><span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -119,13 +127,13 @@ Seq[Any](format.raw/*1.57*/("""
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="lead">"""),_display_(/*91.38*/title),format.raw/*91.43*/("""</p>
+                    <p class="lead">"""),_display_(/*99.38*/title),format.raw/*99.43*/("""</p>
                 <div>
             </div>
 
             <!-- Start Content -->
-            """),_display_(/*96.14*/content),format.raw/*96.21*/("""
-            """),format.raw/*97.13*/("""<!-- End Content -->
+            """),_display_(/*104.14*/content),format.raw/*104.21*/("""
+            """),format.raw/*105.13*/("""<!-- End Content -->
 
         </div>
         <!-- /.container -->
@@ -138,7 +146,7 @@ Seq[Any](format.raw/*1.57*/("""
             <footer>
                 <div class="row">
                     <div class="col-lg-12">
-                        <p>Products Catalogue Footer</p>
+                        <p>Mr.Robot computing</p>
                     </div>
                 </div>
             </footer>
@@ -174,11 +182,11 @@ Seq[Any](format.raw/*1.57*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Mon Apr 24 16:05:55 IST 2017
-                  SOURCE: /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/app/views/main.scala.html
-                  HASH: 560cd3151d470bab4780b845aaeb4b0719d94f56
-                  MATRIX: 766->1|916->56|944->58|1281->368|1307->373|1911->950|1926->956|1997->1006|3244->2226|3259->2232|3308->2260|4001->2926|4021->2937|4070->2965|4296->3164|4321->3180|4361->3182|4422->3215|4459->3225|4479->3236|4535->3271|4572->3281|4586->3285|4618->3295|4671->3330|4684->3335|4723->3336|4784->3369|4821->3379|4841->3390|4896->3424|4968->3465|5021->3490|5121->3563|5136->3569|5183->3595|5666->4051|5692->4056|5814->4151|5842->4158|5883->4171
-                  LINES: 27->1|32->1|34->3|45->14|45->14|56->25|56->25|56->25|81->50|81->50|81->50|96->65|96->65|96->65|100->69|100->69|100->69|101->70|101->70|101->70|101->70|101->70|101->70|101->70|102->71|102->71|102->71|103->72|103->72|103->72|103->72|104->73|105->74|107->76|107->76|107->76|122->91|122->91|127->96|127->96|128->97
+                  DATE: Mon Apr 24 17:55:19 IST 2017
+                  SOURCE: /home/wdd/webapps/OnlineStore/OnlineStore/app/views/main.scala.html
+                  HASH: 71b2df70d77564eaf92c4a054139820c9ef50a7e
+                  MATRIX: 766->1|916->56|944->58|1281->368|1307->373|1911->950|1926->956|1997->1006|2467->1448|2496->1449|2524->1450|2580->1479|2608->1480|2636->1481|3467->2285|3482->2291|3523->2311|3897->2658|3912->2664|3953->2684|4312->3016|4327->3022|4376->3050|4515->3162|4535->3173|4584->3201|4810->3400|4835->3416|4875->3418|4936->3451|4973->3461|4993->3472|5049->3507|5086->3517|5100->3521|5132->3531|5185->3566|5198->3571|5237->3572|5298->3605|5335->3615|5355->3626|5410->3660|5482->3701|5535->3726|5635->3799|5650->3805|5697->3831|6180->4287|6206->4292|6329->4387|6358->4394|6400->4407
+                  LINES: 27->1|32->1|34->3|45->14|45->14|56->25|56->25|56->25|69->38|69->38|70->39|71->40|71->40|72->41|86->55|86->55|86->55|92->61|92->61|92->61|101->70|101->70|101->70|104->73|104->73|104->73|108->77|108->77|108->77|109->78|109->78|109->78|109->78|109->78|109->78|109->78|110->79|110->79|110->79|111->80|111->80|111->80|111->80|112->81|113->82|115->84|115->84|115->84|130->99|130->99|135->104|135->104|136->105
                   -- GENERATED --
               */
           

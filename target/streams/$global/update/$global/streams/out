@@ -1,26 +1,26 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/wdd/webapps/OnlineStore/Enda%20clone/playlab_shoppingwithsearch/}root...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/wdd/webapps/OnlineStore/OnlineStore/}root...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: project#project_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28946e1[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@357795fc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-enhancer;1.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-enhancer;1.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-enhancer;1.1.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-enhancer;1.1.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.javassist#javassist;3.18.2-GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -31,14 +31,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.11;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#twirl-api_2.11;1.1.1 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.1.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#twirl-api_2.11;1.1.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -72,27 +72,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-ebean_2.11;3.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-ebean_2.11;3.0.0 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-ebean_2.11;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-ebean_2.11;3.0.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/com.typesafe.play/play-ebean_2.11/3.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.play#play-ebean_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.typesafe.play#play-ebean_2.11;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-ebean_2.11;3.0.0!play-ebean_2.11.pom(pom.original) (94ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/com.typesafe.play/play-ebean_2.11/3.0.0/jars/play-ebean_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-ebean_2.11;3.0.0 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-ebean_2.11;3.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-ebean_2.11;3.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -102,24 +89,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/org.avaje.ebeanorm/avaje-ebeanorm/6.18.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;6.18.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.avaje.ebeanorm#avaje-ebeanorm;6.18.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom (6.18.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm;6.18.1!avaje-ebeanorm.pom(pom.original) (131ms)[0m
-[0m[[0minfo[0m] [0mResolving org.avaje#avaje-javaparent;1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje#avaje-javaparent;1.2 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje#avaje-javaparent;1.2[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/org.avaje.ebeanorm/avaje-ebeanorm/6.18.1/jars/avaje-ebeanorm.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm;6.18.1[0m
+[0m[[0mdebug[0m] [0m	found org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm;6.18.1->org.jetbrains#annotations;13.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.jetbrains#annotations;13.0 ...[0m
@@ -142,24 +113,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm;6.18.1->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.5.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.5.3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.fasterxml.jackson.core#jackson-core;2.5.3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom (2.5.3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.pom(pom.original) (135ms)[0m
-[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson#jackson-parent;2.5.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.5.1[0m
-[0m[[0mdebug[0m] [0m		tried /home/wdd/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.5.3/bundles/jackson-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar[0m
-[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.5.3 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm;6.18.1->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 [compile->compile][0m
@@ -191,14 +146,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm;6.18.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-server_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-server_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-server_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-server_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -741,14 +696,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -918,14 +873,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->com.google.code.findbugs#jsr305;3.0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->org.apache.tomcat#tomcat-servlet-api;8.0.32 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.11;2.5.3->org.apache.tomcat#tomcat-servlet-api;8.0.32 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-netty-server_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-netty-server_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-netty-server_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-netty-server_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -1070,14 +1025,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.netty#netty-reactive-streams-http;1.0.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->io.netty#netty-transport-native-epoll;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->io.netty#netty-transport-native-epoll;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-logback_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-logback_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-logback_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-logback_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -1114,14 +1069,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->ch.qos.logback#logback-classic;1.1.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->ch.qos.logback#logback-classic;1.1.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-jdbc_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-jdbc_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->com.typesafe.play#play-jdbc_2.11;2.5.3 [compile->master(compile)][0m
@@ -1230,18 +1185,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->com.typesafe.play#play-jdbc_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->com.typesafe.play#play-java_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.11;2.5.3->com.typesafe.play#play-java_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->com.typesafe.play#play-jdbc-api_2.11;2.5.3 [compile->master(compile)][0m
@@ -1250,18 +1205,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->com.typesafe.play#play-jdbc-api_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3->com.typesafe.play#play-jdbc-api_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-cache_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-cache_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -1287,14 +1242,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->net.sf.ehcache#ehcache-core;2.6.11 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->net.sf.ehcache#ehcache-core;2.6.11 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-ws_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-ws_2.11;2.5.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-ws_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-ws_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -1546,25 +1501,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -1586,10 +1541,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -2187,10 +2142,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -2203,14 +2158,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -2294,10 +2249,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-buffer;4.0.36.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -2322,18 +2277,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -2353,10 +2308,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -2530,26 +2485,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -2571,10 +2526,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -3172,10 +3127,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -3188,14 +3143,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -3279,10 +3234,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-buffer;4.0.36.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -3307,18 +3262,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -3338,10 +3293,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -3515,14 +3470,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.3 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-test_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -4036,29 +3991,29 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->net.sourceforge.htmlunit#htmlunit;2.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.fluentlenium#fluentlenium-core;0.10.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.fluentlenium#fluentlenium-core;0.10.9 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -4080,10 +4035,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -4681,10 +4636,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -4697,14 +4652,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -4788,10 +4743,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-buffer;4.0.36.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -4816,18 +4771,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -4847,10 +4802,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -5024,28 +4979,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -5067,10 +5022,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -5668,10 +5623,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -5684,14 +5639,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -5775,10 +5730,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-buffer;4.0.36.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -5803,18 +5758,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -5834,10 +5789,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -6011,28 +5966,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-enhancer;1.1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-enhancer;1.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
@@ -6054,10 +6009,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->com.typesafe.play#play-java-jdbc_2.11;2.5.0 [compile->master(compile)][0m
@@ -6655,10 +6610,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-ebean_2.11;3.0.0->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1->javax.persistence#persistence-api;1.0 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.11;3.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -6671,14 +6626,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-server_2.11;2.5.3->com.typesafe.play#play-iteratees_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-netty-server_2.11;2.5.3->com.typesafe.play#play-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -6762,10 +6717,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-buffer;4.0.36.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.netty#netty-transport-native-epoll;4.0.36.Final->io.netty#netty-transport;4.0.36.Final [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-logback_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -6790,18 +6745,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->ch.qos.logback#logback-core;1.1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.1.4->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc-evolutions_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -6821,10 +6776,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.11->org.slf4j#slf4j-api;1.7.16 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->com.typesafe.play#play_2.11;2.5.3 [compile->master(compile)][0m
@@ -6998,10 +6953,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-core;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.5.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.5.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.11;2.5.3->com.typesafe.play#play-netty-server_2.11;2.5.3 [compile->master(compile)][0m
@@ -7339,22 +7294,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.48.2->org.seleniumhq.selenium#selenium-leg-rc;2.48.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-leg-rc;2.48.2->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-leg-rc;2.48.2->org.seleniumhq.selenium#selenium-remote-driver;2.48.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [docs][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-omnidoc_2.11;2.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-omnidoc_2.11;2.5.3 {docs=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-omnidoc_2.11;2.5.3[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-omnidoc_2.11;2.5.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->com.typesafe.play#play-docs_2.11;2.5.3 [compile->master(compile)][0m
@@ -7952,18 +7907,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->com.typesafe.play#play-docs_2.11;2.5.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.3->com.typesafe.play#play-docs_2.11;2.5.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.3 [docs->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for project#project_2.11;1.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default][0m
@@ -8009,19 +7964,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies project#project_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for io.netty#netty-codec;4.0.34.Final: evicting too[0m
@@ -8035,12 +7990,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-enhancer;1.1.0!play-enhancer.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#twirl-api_2.11;1.1.1!twirl-api_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.11/3.0.0/play-ebean_2.11-3.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.play#play-ebean_2.11;3.0.0!play-ebean_2.11.jar (100ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-ebean_2.11;3.0.0!play-ebean_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-server_2.11;2.5.3!play-server_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.11;2.5.3!play-java_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.11;2.5.3!play-netty-server_2.11.jar[0m
@@ -8051,12 +8001,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.5.3!play-java-ws_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/6.18.1/avaje-ebeanorm-6.18.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm;6.18.1!avaje-ebeanorm.jar (479ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm;6.18.1!avaje-ebeanorm.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.1!avaje-ebeanorm-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#annotations;13.0!annotations.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.persistence#persistence-api;1.0!persistence-api.jar[0m
@@ -8201,19 +8146,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8539ms :: artifacts dl 1057ms[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT compile produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT runtime produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT test produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT provided produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT optional produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT compile-internal produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT runtime-internal produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT test-internal produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT plugin produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT sources produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT docs produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT pom produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for playlab_shoppingwithsearch1#playlab_shoppingwithsearch1_2.11;1.0-SNAPSHOT scala-tool produced in /home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/target/resolution-cache/reports/playlab_shoppingwithsearch1-playlab_shoppingwithsearch1_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8539ms resolve - 1057ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 10355ms :: artifacts dl 265ms[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT compile produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT runtime produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT test produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT provided produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT optional produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT compile-internal produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT runtime-internal produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT test-internal produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT plugin produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT sources produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT docs produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT pom produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for project#project_2.11;1.0-SNAPSHOT scala-tool produced in /home/wdd/webapps/OnlineStore/OnlineStore/target/resolution-cache/reports/project-project_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (10355ms resolve - 265ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

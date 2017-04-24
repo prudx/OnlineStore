@@ -3,11 +3,32 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@font-face {
+    	font-family: 'Robot';
+    	src: url('fonts/mr-robot-webfont.woff2') format('woff2'),
+             url('fonts/mr-robot-webfont.woff') format('woff');
+    	font-weight: 200;
+    	font-style: normal;
+
+}
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #cccccc;
+}
+#topleft{
+	font-family: 'Robot', Arial;
+	color: red;
 }
 
+#centerlogo{
+    align-items: center;
+
+}
+table{
+    background-color: white;
+
+}
 .slide-image {
     width: 100%;
 }
@@ -39,6 +60,57 @@ body {
     padding-left: 10px;
     color: #d17581;
 }
+
+.img-container {
+    position: absolute;
+    top: 100%; bottom: 0%; left: 100%; right: 0%;
+}
+.item{
+    position: relative;
+}
+
+.jumbotron{
+  position: relative;
+  overflow: hidden;
+  padding:0px !important;
+ }
+.container .text-center{
+  z-index: 1000 !important;
+}
+.video-background:before{
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ position: absolute;
+ content: "";
+ background-color: #000;
+ opacity: 0.39;
+ z-index: 6;
+}
+.video-background {
+  position: relative; 
+ background: #222;
+width:100%;
+z-index:5;
+  }
+#video-background{
+ background-size: cover;
+transition: 1s opacity;
+}
+
+.cover-text{
+position:absolute;
+width:100%;
+text-align:center;
+z-index:9999;
+top:5em;
+}
+
+.cover-text h1, .cover-text p{
+color:#fff !important;
+ }
+
 
 .thumbnail {
     padding: 0;

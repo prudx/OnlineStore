@@ -41,7 +41,12 @@ public class ProductCtrl extends Controller {
 	}
 
     public Result index() {
-		return redirect(routes.ProductCtrl.listProducts(0, ""));
+		return ok(index.render(env, getCurrentUser()));
+    }
+
+    public Result about(){
+        return ok(about.render(env, getCurrentUser()));
+
     }
 
     public Result signup() {

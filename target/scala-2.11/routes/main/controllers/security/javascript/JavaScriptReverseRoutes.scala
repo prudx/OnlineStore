@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/OnlineStore/Enda clone/playlab_shoppingwithsearch/conf/routes
-// @DATE:Mon Apr 24 15:57:07 IST 2017
+// @SOURCE:/home/wdd/webapps/OnlineStore/OnlineStore/conf/routes
+// @DATE:Mon Apr 24 17:14:43 IST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -11,11 +11,11 @@ import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamic
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:13
+// @LINE:14
 package controllers.security.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:13
+  // @LINE:14
   class ReverseLoginCtrl(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +23,7 @@ package controllers.security.javascript {
     }
 
   
-    // @LINE:14
+    // @LINE:15
     def loginSubmit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.loginSubmit",
       """
@@ -33,7 +33,7 @@ package controllers.security.javascript {
       """
     )
   
-    // @LINE:15
+    // @LINE:16
     def logout: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.logout",
       """
@@ -43,7 +43,7 @@ package controllers.security.javascript {
       """
     )
   
-    // @LINE:13
+    // @LINE:14
     def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.security.LoginCtrl.login",
       """
